@@ -1,0 +1,262 @@
+
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+ .dropdown:hover .dropdown-menu {
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+
+#portfolio .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+}
+
+/* md */
+@media (min-width: 992px) {
+
+ /* Make Navigation Toggle on Desktop Hover */
+ .dropdown:hover .dropdown-menu {
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+
+.navbar-nav > li {
+  margin-left: 10px;
+}
+
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-bar .first-arrow {
+  width: 21%;
+}
+
+.team-bar .second-arrow {
+  width: 20%;
+}
+
+.team-bar .third-arrow {
+  width: 21%;
+}
+
+.team-bar .fourth-arrow {
+  width: 20%;
+}
+
+ul.social_icons li{
+  margin-right: 0;
+}
+
+}
+
+
+/* sm */
+@media (min-width: 768px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 3px;
+  }
+
+  .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    margin-top: 0;
+    background-color: #222;     
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;       
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    background: url("../images/sagar-logo-small.png") top left no-repeat;
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    width: 200px;
+    height: 200px; 
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;         
+  }
+
+  .team-bar .first-one-arrow {
+    width: 2%;
+  }
+
+  .team-bar .first-arrow {
+    width: 18%;
+  }
+
+  .team-bar .second-arrow {
+    width: 24%;
+  }
+
+  .team-bar .third-arrow {
+    width: 15%;
+  }
+
+  .team-bar .fourth-arrow {
+    width: 20%;
+  }
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+  .container > .navbar-header, .container > .navbar-collapse{
+    margin-left: 0;
+  }
+
+  .navbar-default {
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+
+  .navbar-default.navbar-shrink {
+    /*padding: 10px 0;*/
+    margin-top: 0;
+    background-color: #222;     
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;    
+    color: #035096;
+  }
+
+
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .navbar-default a.navbar-brand {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 150px;
+    height: 250px;  
+  }
+
+  #main-slider,
+  #main-slider .carousel-inner,
+  #main-slider .carousel .carousel-content{
+    height: 350px;
+  }
+
+
+  #main-slider .carousel h1, #main-slider .carousel h2 {
+    color: #f2f2f2;
+    padding-left: 50px;
+    /*padding-bottom: 50px;    */
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 35px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 25px;
+  }
+
+
+  .top-number{
+    font-size: 14px;
+  }
+
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 16px;
+  }
+
+  #main-slider .slider-img img{
+   height: 500px;
+   width: 500px; 
+ }
+
+
+ .desc img {
+  margin-top: 50px;
+}
+
+.nav-tabs > li.active > a:after{
+  display: none;
+}
+
+#footer .col-sm-6{
+  text-align:center;
+}
+
+#footer .pull-right{
+  float: none !important;
+}
+
+
+.team .single-profile-top, 
+.team .single-profile-bottom {
+  margin-bottom: 30px;
+}
+
+
+
+ul.social_icons li{
+  margin-right: 0;
+}
+
+.form-control{
+  margin-left: 10px;  
+  width: 390px;
+}
+
+
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+.gmap iframe{
+    width: 440px;
+    height: 200px;
+}
+
+.map-content{
+   width: 440px;
+}
+
+
+}
+
