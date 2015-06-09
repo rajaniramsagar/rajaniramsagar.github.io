@@ -172,6 +172,46 @@ ul.social_icons li{
     height: 350px;
   }
 
+  #main-slider .carousel .carousel-content {
+    margin-top: 0;
+  }
+
+
+  #main-slider .slider-img img{
+    height: 200px;
+    width: 200px; 
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+  }
+
+
+  #main-slider #item2 .slider-img img{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    bottom: 40px;
+  }
+
+  #main-slider #item4 .slider-img img{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    bottom: 40px;
+  }
+
+
+  #main-slider .carousel .slider-img{
+    height: 200px;
+  }
+
 
   #main-slider .carousel h1, #main-slider .carousel h2 {
     color: #f2f2f2;
@@ -187,6 +227,11 @@ ul.social_icons li{
     font-size: 25px;
   }
 
+
+  #main-slider .carousel .slider-img h1{
+    margin-top: 0px;
+    margin-right: 120px;
+  }
 
   .top-number{
     font-size: 14px;
@@ -204,58 +249,82 @@ ul.social_icons li{
     font-size: 16px;
   }
 
-  #main-slider .slider-img img{
-   height: 500px;
-   width: 500px; 
- }
+
+  #contact-info .btn{
+
+    margin-left: 140px;
+
+  }
 
 
- .desc img {
-  margin-top: 50px;
-}
-
-.nav-tabs > li.active > a:after{
-  display: none;
-}
-
-#footer .col-sm-6{
-  text-align:center;
-}
-
-#footer .pull-right{
-  float: none !important;
-}
+  #products div.cola img{
+    height: 250px;
+    width: 110px;
+  }
 
 
-.team .single-profile-top, 
-.team .single-profile-bottom {
-  margin-bottom: 30px;
-}
+  #products div.lemon img{
+    height: 250px;   
+    width: 130px;
+
+  }
+
+  #products div.orange img{
+    height: 240px;   
+    width: 140px;
+  }
+
+  #products div.mango img{
+    height: 240px;   
+    width: 120px;
+  }
+
+  .desc img {
+    margin-top: 50px;
+  }
+
+  .nav-tabs > li.active > a:after{
+    display: none;
+  }
+
+  #footer .col-sm-6{
+    text-align:center;
+  }
+
+  #footer .pull-right{
+    float: none !important;
+  }
+
+
+  .team .single-profile-top, 
+  .team .single-profile-bottom {
+    margin-bottom: 30px;
+  }
 
 
 
-ul.social_icons li{
-  margin-right: 0;
-}
+  ul.social_icons li{
+    margin-right: 0;
+  }
 
-.form-control{
-  margin-left: 10px;  
-  width: 390px;
-}
+  .form-control{
+    margin-left: 10px;  
+    width: 390px;
+  }
 
 
 }
 
 /* XS Portrait */
 @media (max-width: 480px) {
-.gmap iframe{
+  .gmap iframe{
     width: 440px;
     height: 200px;
-}
+  }
 
-.map-content{
+  .map-content{
    width: 440px;
-}
+ }
 
 
 }
