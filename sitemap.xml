@@ -5,16 +5,18 @@
   </url>
   <url>
     <loc>http://www.sagarsoftdrinks.com/index.html</loc>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.sagarsoftdrinks.com/about-us.html</loc>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.sagarsoftdrinks.com/contact-us.html</loc>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.sagarsoftdrinks.com/products.html</loc>
+    <priority>1.0</priority>
   </url>
 </urlset>
-<!--<guid value="0661c8e7-20d0-40ae-b283-a66bd490bad5" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
