@@ -18,7 +18,7 @@ h2, h3, h4, h5, h6{
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 1.5em 0;
 }
 
 .center {
@@ -42,8 +42,8 @@ hr {
 }
 
 .navbar-default {
-  padding: 20px 0;
-  margin-top: 38px;
+  padding: 1.5em 0;
+  margin-top: 2.8em;
   -webkit-transition: padding .3s;
   -moz-transition: padding .3s;
   transition: padding .3s;
@@ -55,10 +55,10 @@ hr {
 .navbar-default a.navbar-brand {
   background: url("../images/sagar-logo-sharp.png") top left no-repeat;
   position: absolute;
-  top: -25px;
-  left: 100px;
-  width: 200px;
-  height: 250px;  
+  top: -1.5em;
+  left: 4em;
+  width: 12em;
+  height: 8em;  
 }
 
 .navbar-default .navbar-brand:hover,
@@ -94,7 +94,7 @@ hr {
   font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   /*font-size: 15px;*/
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   color: #035096;
 }
 
@@ -104,7 +104,7 @@ hr {
   background-color: #007AA5;  
   opacity: 0.7;
   color: #f2f2f2;
-  margin-left: 2px;  
+  margin-left: 0.2em;  
   -webkit-transition: all 400ms;
   -moz-transition: all 400ms;
   transition: all 400ms;  
@@ -128,15 +128,15 @@ hr {
   text-transform: uppercase;
   font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   color: #f2f2f2;
 }
 
 .top-bar {
   color: #035096;
-  line-height: 40px;
-  border-top: 5px solid #EDEDED;
-  font-size: 12px; 
+  line-height: 2.5em;
+  border-top: 0.4em solid #EDEDED;
+  font-size: 0.9em; 
   background-color: #f2f2f2;
 }
 
@@ -147,15 +147,15 @@ hr {
 }
 
 i.fa-phone-square:hover{
-  font-size: 25px;
-  -webkit-transition: all .5;
-  -moz-transition: all .5s;
-  transition: all .5s;  
+  font-size: 1.5em;
+  -webkit-transition: all .3;
+  -moz-transition: all .3s;
+  transition: all .3s;  
 }
 
 
 .social{
-  font-size: 16px; 
+  font-size: 1em; 
   text-align: right;
 }
 
@@ -175,12 +175,12 @@ ul.social-share li a {
   display: inline-block;
   color:  #035096;
   background: #f2f2f2;  
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
+  width: 1.8em;
+  height: 2em;
+  line-height: 1.8em;
   text-align: center;
-  border: 1px solid #007AA5;
-  border-radius: 2px;
+  border: 0.08em solid #007AA5;
+  border-radius: 0.3em;
 }
 
 ul.social-share li a:hover {
@@ -193,22 +193,22 @@ ul.social-share li a:hover {
 footer{
   background:url(../images/footer-bg.jpg) #222;  
   color: #999;
-  padding-top: 60px;
-  border-top: 4px solid #555;
+  padding-top: 3.8em;
+  border-top: 0.25em solid #555;
   color: #ccc;  
 } 
 
 footer h4{
   color: #f2f2f2;
-  border-bottom: 3px solid #131313;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  border-bottom: 0.2em solid #131313;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 footer h6{
   color: #f2f2f2;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 footer ul{
@@ -220,8 +220,8 @@ footer a:hover{
 }
 
 .footer-widget {
-  margin-bottom: 45px;
-  padding-right: 20px;
+  margin-bottom: 2.7em;
+  padding-right: 1.4em;
 }
 
 .footer-widget h4 {
