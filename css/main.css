@@ -53,9 +53,9 @@ hr {
 
 
 .navbar-default a.navbar-brand {
-  background: url("../images/sagar-logo-sharp.png") top left no-repeat;
+  background: url("../images/logo-sm.png") top left no-repeat;
   position: absolute;
-  top: -1.5em;
+  top: -2em;
   left: 4em;
   width: 12em;
   height: 8em;  
@@ -431,8 +431,9 @@ footer a:hover{
   text-align: right;
   position: relative;  
   height: 550px;
-  padding-top: 50px;
+  padding-top: 80px;
   margin-right: 0px;
+  margin-left: 10px;
   padding-right: 0px;
 }
 
@@ -441,20 +442,24 @@ footer a:hover{
   width: 400px; 
 }
 
-#main-slider #item2 .slider-img img{
-  position: absolute;
-  bottom: 80px;
-  margin-left: 50px;
-  height: 450px;
-  width: 400px;  
+
+
+
+#main-slider #item3 .slider-img img{
+position: absolute;
+    /* bottom: 80px; */
+    top: 100px;
+    margin-left: 15px;
+    height: 380px;
+    width: 360px;
 }
 
 #main-slider #item4 .slider-img img{
-  position: absolute;
-  bottom: 80px;
-  margin-left: 30px;
-  height: 450px;
-  width: 400px;  
+    /* bottom: 80px; */
+    // top: 100px;
+    margin-left: 15px;
+    height: 400px;
+    width: 360px;
 }
 
 #main-slider .prev,
@@ -724,25 +729,25 @@ footer a:hover{
 
 #products div.cola img{
   height: 350px;
-  width: 150px;
+  width: 140px;
 }
 
 
 #products div.lemon img{
   height: 350px;
-  width: 180px;
+  width: 130px;
 
 }
 
 #products div.orange img{
   height: 350px;
-  width: 180px;
+  width: 130px;
 
 }
 
 #products div.mango img{
   height: 350px;
-  width: 150px;
+  width: 100px;
 }
 
 #products p{
