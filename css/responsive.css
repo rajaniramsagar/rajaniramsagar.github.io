@@ -87,7 +87,7 @@ ul.social_icons li{
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
-    background: url("../images/sagar-logo-small.png") top left no-repeat;
+    background: url("../images/logo-xs.png") top left no-repeat;
     position: absolute;
     top: -5px;
     left: 100px;
@@ -171,8 +171,8 @@ ul.social_icons li{
       position: absolute;
       top: 5px;
       left: 10px;
-      width: 150px;
-      height: 250px;  
+      width: 175px;
+      height: 150px;  
     }
 
 
